@@ -1,0 +1,97 @@
+﻿@model Products;
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with Dropdown</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .form-container {
+            width: 50%;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            font-size: 16px;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        select, input {
+            width: 100%;
+            padding: 8px;
+            font-size: 16px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            display: block;
+            width: 100%;
+        }
+
+            button:hover {
+                background-color: #0056b3;
+            }
+    </style>
+</head>
+@if (Model == null)
+{
+    <h1>Null</h1>
+}
+else
+{
+    <body>
+
+        @if (Model == null)
+        {
+            <h1>Null</h1>
+        }
+
+
+        <h1>Form with Dropdown</h1>
+
+        <div class="form-container">
+            <form action="/Product/UpdateP" method="POST">
+                <input type="hidden" id="productId" name="ProductId" value="@Model.ProductId" />
+
+                <label for="productName">Enter Number</label>
+                <input type="number" id="productName" name="IPNumber" required />
+                <label for="productName">Product Name</label>
+                <input type="text" id="productName" name="ProductName" required />
+
+                <button type="submit">Submit</button>
+            </form>
+
+        </div>
+    </body>
+}
+</html>

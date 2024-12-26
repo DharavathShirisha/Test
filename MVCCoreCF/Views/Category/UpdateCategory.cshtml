@@ -1,0 +1,118 @@
+﻿@model IEnumerable<MVCCoreCF.Models.Category>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+    <style>
+        .back-btn1 {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            text-decoration: none;
+            margin-top: 50px;
+            margin-left: -20px;
+        }
+
+            .back-btn1:hover {
+                background-color: #0056b3;
+            }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f9;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        table {
+            width: 60%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ddd;
+            font-size: 14px;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+
+        .update-btn {
+            background-color: #2196F3;
+            color: white;
+            padding: 8px 16px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+            .update-btn:hover {
+                background-color: #1976D2;
+            }
+    </style>
+</head>
+<body>
+
+    <h1>Product List</h1>
+
+    @if (Model == null || !Model.Any())
+    {
+        <p class="no-data">No products found.</p>
+    }
+    else
+    {
+        <button type="button" class="btn btn-secondary" onclick="window.location.href='@Url.Action("FirstPage", "Home")';">Back</button>
+        <table>
+            <thead>
+                <tr>
+                    <th>Product Id</th>
+                    <th>Product Name</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var category in Model)
+                {
+                    <tr>
+                        <td>@category.InputCategoryId</td>
+                        <td>@category.CategoryName</td>
+                        <td>
+                            <a href="@Url.Action("Update", "Category", new { id = category.CategoryId })" class="update-btn">Update</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+
+</body>
+</html>

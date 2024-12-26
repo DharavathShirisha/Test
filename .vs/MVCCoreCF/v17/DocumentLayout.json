@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\maruthinandanlal\\source\\repos\\ASP.NET MVC Machine Test\\MVCCoreCF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6A4F8250-6307-430F-8CC4-3997DD1B5EE0}|MVCCoreCF\\MVCCoreCF.csproj|c:\\users\\maruthinandanlal\\source\\repos\\asp.net mvc machine test\\mvccorecf\\mvccorecf\\migrations\\20241226033934_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A4F8250-6307-430F-8CC4-3997DD1B5EE0}|MVCCoreCF\\MVCCoreCF.csproj|solutionrelative:mvccorecf\\migrations\\20241226033934_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A4F8250-6307-430F-8CC4-3997DD1B5EE0}|MVCCoreCF\\MVCCoreCF.csproj|c:\\users\\maruthinandanlal\\source\\repos\\asp.net mvc machine test\\mvccorecf\\mvccorecf\\views\\product\\addcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A4F8250-6307-430F-8CC4-3997DD1B5EE0}|MVCCoreCF\\MVCCoreCF.csproj|solutionrelative:mvccorecf\\views\\product\\addcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A4F8250-6307-430F-8CC4-3997DD1B5EE0}|MVCCoreCF\\MVCCoreCF.csproj|c:\\users\\maruthinandanlal\\source\\repos\\asp.net mvc machine test\\mvccorecf\\mvccorecf\\views\\home\\addcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A4F8250-6307-430F-8CC4-3997DD1B5EE0}|MVCCoreCF\\MVCCoreCF.csproj|solutionrelative:mvccorecf\\views\\home\\addcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A4F8250-6307-430F-8CC4-3997DD1B5EE0}|MVCCoreCF\\MVCCoreCF.csproj|c:\\users\\maruthinandanlal\\source\\repos\\asp.net mvc machine test\\mvccorecf\\mvccorecf\\views\\category\\addcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A4F8250-6307-430F-8CC4-3997DD1B5EE0}|MVCCoreCF\\MVCCoreCF.csproj|solutionrelative:mvccorecf\\views\\category\\addcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A4F8250-6307-430F-8CC4-3997DD1B5EE0}|MVCCoreCF\\MVCCoreCF.csproj|c:\\users\\maruthinandanlal\\source\\repos\\asp.net mvc machine test\\mvccorecf\\mvccorecf\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A4F8250-6307-430F-8CC4-3997DD1B5EE0}|MVCCoreCF\\MVCCoreCF.csproj|solutionrelative:mvccorecf\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A4F8250-6307-430F-8CC4-3997DD1B5EE0}|MVCCoreCF\\MVCCoreCF.csproj|c:\\users\\maruthinandanlal\\source\\repos\\asp.net mvc machine test\\mvccorecf\\mvccorecf\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A4F8250-6307-430F-8CC4-3997DD1B5EE0}|MVCCoreCF\\MVCCoreCF.csproj|solutionrelative:mvccorecf\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A4F8250-6307-430F-8CC4-3997DD1B5EE0}|MVCCoreCF\\MVCCoreCF.csproj|c:\\users\\maruthinandanlal\\source\\repos\\asp.net mvc machine test\\mvccorecf\\mvccorecf\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6A4F8250-6307-430F-8CC4-3997DD1B5EE0}|MVCCoreCF\\MVCCoreCF.csproj|solutionrelative:mvccorecf\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A4F8250-6307-430F-8CC4-3997DD1B5EE0}|MVCCoreCF\\MVCCoreCF.csproj|c:\\users\\maruthinandanlal\\source\\repos\\asp.net mvc machine test\\mvccorecf\\mvccorecf\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6A4F8250-6307-430F-8CC4-3997DD1B5EE0}|MVCCoreCF\\MVCCoreCF.csproj|solutionrelative:mvccorecf\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20241226033934_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\maruthinandanlal\\source\\repos\\ASP.NET MVC Machine Test\\MVCCoreCF\\MVCCoreCF\\Migrations\\20241226033934_InitialCreate.cs",
+              "RelativeDocumentMoniker": "MVCCoreCF\\Migrations\\20241226033934_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\maruthinandanlal\\source\\repos\\ASP.NET MVC Machine Test\\MVCCoreCF\\MVCCoreCF\\Migrations\\20241226033934_InitialCreate.cs",
+              "RelativeToolTip": "MVCCoreCF\\Migrations\\20241226033934_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T03:39:36.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddCategory.cshtml",
+              "DocumentMoniker": "C:\\Users\\maruthinandanlal\\source\\repos\\ASP.NET MVC Machine Test\\MVCCoreCF\\MVCCoreCF\\Views\\Product\\AddCategory.cshtml",
+              "RelativeDocumentMoniker": "MVCCoreCF\\Views\\Product\\AddCategory.cshtml",
+              "ToolTip": "C:\\Users\\maruthinandanlal\\source\\repos\\ASP.NET MVC Machine Test\\MVCCoreCF\\MVCCoreCF\\Views\\Product\\AddCategory.cshtml",
+              "RelativeToolTip": "MVCCoreCF\\Views\\Product\\AddCategory.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T03:36:31.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\maruthinandanlal\\source\\repos\\ASP.NET MVC Machine Test\\MVCCoreCF\\MVCCoreCF\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "MVCCoreCF\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\maruthinandanlal\\source\\repos\\ASP.NET MVC Machine Test\\MVCCoreCF\\MVCCoreCF\\Models\\Category.cs",
+              "RelativeToolTip": "MVCCoreCF\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T03:35:15.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddCategory.cshtml",
+              "DocumentMoniker": "C:\\Users\\maruthinandanlal\\source\\repos\\ASP.NET MVC Machine Test\\MVCCoreCF\\MVCCoreCF\\Views\\Home\\AddCategory.cshtml",
+              "RelativeDocumentMoniker": "MVCCoreCF\\Views\\Home\\AddCategory.cshtml",
+              "ToolTip": "C:\\Users\\maruthinandanlal\\source\\repos\\ASP.NET MVC Machine Test\\MVCCoreCF\\MVCCoreCF\\Views\\Home\\AddCategory.cshtml",
+              "RelativeToolTip": "MVCCoreCF\\Views\\Home\\AddCategory.cshtml",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T03:10:22.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddCategory.cshtml",
+              "DocumentMoniker": "C:\\Users\\maruthinandanlal\\source\\repos\\ASP.NET MVC Machine Test\\MVCCoreCF\\MVCCoreCF\\Views\\Category\\AddCategory.cshtml",
+              "RelativeDocumentMoniker": "MVCCoreCF\\Views\\Category\\AddCategory.cshtml",
+              "ToolTip": "C:\\Users\\maruthinandanlal\\source\\repos\\ASP.NET MVC Machine Test\\MVCCoreCF\\MVCCoreCF\\Views\\Category\\AddCategory.cshtml",
+              "RelativeToolTip": "MVCCoreCF\\Views\\Category\\AddCategory.cshtml",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T03:16:52.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\maruthinandanlal\\source\\repos\\ASP.NET MVC Machine Test\\MVCCoreCF\\MVCCoreCF\\appsettings.json",
+              "RelativeDocumentMoniker": "MVCCoreCF\\appsettings.json",
+              "ToolTip": "C:\\Users\\maruthinandanlal\\source\\repos\\ASP.NET MVC Machine Test\\MVCCoreCF\\MVCCoreCF\\appsettings.json",
+              "RelativeToolTip": "MVCCoreCF\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-26T03:09:09.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\maruthinandanlal\\source\\repos\\ASP.NET MVC Machine Test\\MVCCoreCF\\MVCCoreCF\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "MVCCoreCF\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\maruthinandanlal\\source\\repos\\ASP.NET MVC Machine Test\\MVCCoreCF\\MVCCoreCF\\appsettings.Development.json",
+              "RelativeToolTip": "MVCCoreCF\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-26T03:09:04.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\maruthinandanlal\\source\\repos\\ASP.NET MVC Machine Test\\MVCCoreCF\\MVCCoreCF\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "MVCCoreCF\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\maruthinandanlal\\source\\repos\\ASP.NET MVC Machine Test\\MVCCoreCF\\MVCCoreCF\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "MVCCoreCF\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T10:28:46.621Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

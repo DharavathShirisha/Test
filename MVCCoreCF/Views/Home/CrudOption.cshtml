@@ -1,0 +1,65 @@
+﻿
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Operations</title>
+    <style>
+        button {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+        }
+
+        .show-records-btn {
+            background-color: #007bff;
+            color: white;
+        }
+
+            .show-records-btn:hover {
+                background-color: #0056b3;
+            }
+
+        .update-btn {
+            background-color: #28a745;
+            color: white;
+        }
+
+            .update-btn:hover {
+                background-color: #218838;
+            }
+
+        .delete-btn {
+            background-color: #dc3545;
+            color: white;
+        }
+
+            .delete-btn:hover {
+                background-color: #c82333;
+            }
+
+        .add-btn {
+            background-color: #17a2b8;
+            color: white;
+        }
+
+            .add-btn:hover {
+                background-color: #138496;
+            }
+    </style>
+</head>
+<body>
+    <h1>Data Add Successfully</h1>
+
+    <button onclick="window.location.href='@Url.Action("DisplayAllProducts", "Home")';" class="show-records-btn">Show Records</button>
+    <button type="button" class="update-btn" onclick="window.location.href='@Url.Action("UpdateView", "Home")';">Update</button>
+    <button type="button" class="delete-btn" onclick="window.location.href='@Url.Action("DeleteView", "Home")';">Delete</button>
+    <button type="button" class="add-btn" onclick="window.location.href='@Url.Action("AddProduct", "Home")';">Add</button>
+</body>
+</html>

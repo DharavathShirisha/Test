@@ -1,0 +1,79 @@
+﻿@model IEnumerable<MVCCoreCF.Models.Category>
+
+
+<button type="button" class="btn btn-secondary" onclick="window.location.href='@Url.Action("FirstPage", "Home")';">Back</button>
+<table class="table table-bordered category-table">
+    <thead>
+        <tr>
+            <th>Category ID</th>
+            <th>Category Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var category in Model)
+        {
+            <tr>
+                <td>@category.InputCategoryId</td>
+                <td>@category.CategoryName</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+<button type="button" class="btn btn-secondary back-button" onclick="window.location.href='@Url.Action("FirstPage", "Home")';">Back</button>
+
+
+<style>
+
+    .page-title {
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+
+    .category-table {
+        width: 80%;
+        margin: 0 auto;
+        border-collapse: collapse;
+    }
+
+        .category-table th, .category-table td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        .category-table th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .category-table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .category-table tr:hover {
+            background-color: #ddd;
+        }
+
+
+    .back-button {
+        display: block;
+        width: 150px;
+        margin: 30px auto 0;
+        padding: 10px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+</style>

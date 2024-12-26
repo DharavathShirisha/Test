@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product and Category Management</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+
+        .add-buttons, .delete-buttons, .show-buttons, .update-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-right: 40px;
+        }
+
+        button {
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.3s;
+            width: 200px;
+            margin: 10px;
+        }
+
+            button:hover {
+                transform: scale(1.05);
+            }
+
+            button:focus {
+                outline: none;
+            }
+
+
+        .btn-add {
+            background-color: #4CAF50;
+        }
+
+            .btn-add:hover {
+                background-color: #45a049;
+            }
+
+
+        .btn-show {
+            background-color: #2196F3;
+        }
+
+            .btn-show:hover {
+                background-color: #1976D2;
+            }
+
+        .btn-show-all {
+            background-color: #FFC107;
+        }
+
+            .btn-show-all:hover {
+                background-color: #FFB300;
+            }
+
+
+        .btn-delete {
+            background-color: #F44336;
+        }
+
+            .btn-delete:hover {
+                background-color: #D32F2F;
+            }
+
+
+        .btn-update {
+            background-color: #9C27B0;
+        }
+
+            .btn-update:hover {
+                background-color: #7B1FA2;
+            }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+
+        <div class="add-buttons">
+            <button class="btn-add" onclick="location.href='@Url.Action("AddProduct", "Product")'">Add Product</button>
+            <button class="btn-add" onclick="location.href='@Url.Action("AddCategory", "Category")'">Add Category</button>
+        </div>
+
+
+        <div class="delete-buttons">
+            <button class="btn-delete" onclick="location.href='@Url.Action("DeleteProduct", "Product")'">Delete Product</button>
+            <button class="btn-delete" onclick="location.href='@Url.Action("DeleteCategory", "Category")'">Delete Category</button>
+        </div>
+
+
+        <div class="update-buttons">
+            <button class="btn-update" onclick="location.href='@Url.Action("UpdateProduct", "Product")'">Update Product</button>
+            <button class="btn-update" onclick="location.href='@Url.Action("UpdateCategory", "Category")'">Update Category</button>
+        </div>
+
+
+        <div class="show-buttons">
+            <button class="btn-show" onclick="location.href='@Url.Action("ShowOnlyProduct", "Product")'">Show Only Product</button>
+            <button class="btn-show" onclick="location.href='@Url.Action("ShowOnlyCategory", "Category")'">Show Only Category</button>
+        </div>
+
+
+        <button class="btn-show-all" onclick="location.href='@Url.Action("ShowAllProductWithCategory", "Product")'">Show All Product With Category</button>
+    </div>
+</body>
+</html>
